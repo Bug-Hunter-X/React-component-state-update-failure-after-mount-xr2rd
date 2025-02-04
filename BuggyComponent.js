@@ -1,0 +1,1 @@
+This React component uses the wrong lifecycle method to update the state.  It attempts to use `componentWillMount` which is deprecated and unreliable.  The component will not re-render with updated state after it mounts.
