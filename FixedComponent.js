@@ -1,0 +1,1 @@
+The solution uses the `useEffect` hook, which is the recommended approach for performing side effects in functional components.  The state update is now reliably triggered after the component mounts.  The empty dependency array `[]` ensures the effect runs only once after the initial render, similar to `componentWillMount`'s original intention.
